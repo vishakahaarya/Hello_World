@@ -1,0 +1,14 @@
+class Static{
+    int x = 12;
+    static class car{
+       int y = 5;
+    }
+}
+public class Main{
+    public static void main (String[] args){
+    Static mystatic = new Static();
+    Static.car mycar = new Static.car();
+    System.out.println("Outer Class: " + mystatic.x);
+    System.out.println( "Inner Class: "+ mycar.y);
+    }
+}
