@@ -1,0 +1,13 @@
+public class Main
+{
+	public static void main(String[] args) {
+	myClass myobj = new myClass();
+	myobj.name="Ansh";
+	myobj.age = 12;
+	System.out.println(myobj.getname());
+	System.out.println(myobj.getage());
+	myobj.setname("Vishakha");
+	myobj.setage(20);
+
+	}
+}
