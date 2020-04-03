@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int a=11,b=3,remainder,add,subtract,multiply,divide;
+	    remainder = a%b;
+	    add = a+b;
+	    subtract = a-b;
+	    multiply = a*b;
+	    divide = a/b;
+		System.out.println(remainder);
+		System.out.println(add);
+		System.out.println(subtract);
+		System.out.println(multiply);
+		System.out.println(divide);
+	}
+}
