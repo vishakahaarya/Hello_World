@@ -1,0 +1,20 @@
+public class Main
+{
+    public void Mymethod1(){
+        System.out.println("Car Name");
+    }
+	class car{
+	    public void Mymethod(){
+	        System.out.println("Fortuner");
+	    }
+	}
+	public static void main(String[] args) {
+	    Main myobj = new Main();
+	    Main.car mycar = myobj.new car();
+	    myobj.Mymethod1();
+	    mycar.Mymethod();
+	    
+	
+	}
+}
+
