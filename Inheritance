@@ -1,0 +1,19 @@
+public class car{
+    public void carname(){
+        System.out.println("carnme: Fortuner");
+    }
+    public void carmodel(){
+        System.out.println("carmodel: 2020");
+    }
+}
+public class Main extends car{
+protected String name = "Pooja Choudhary";
+
+	public static void main(String[] args) {
+	    car car1 = new car();
+	    car1.carname();
+	    car1.carmodel();
+	    Main car2 = new Main();
+	    System.out.println("Name: "+ car2.name);
+	}
+}
