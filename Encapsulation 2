@@ -1,0 +1,27 @@
+public class myclass{
+    String name;
+    int age;
+    public String getname(){
+        return name;
+    }
+    public int getage(){
+        return age;
+    }
+    public void setname(String newname){
+        this.name = newname;
+        }
+    public void setage(int newage){
+        this.age = newage;
+        }
+     
+}
+public class Main
+{
+	public static void main(String[] args) {
+		myclass myobj = new myclass();
+		myobj.setname("Vishakha");
+		myobj.setage(20);
+		System.out.println(myobj.getname());
+		System.out.println(myobj.getage());
+	}
+}
