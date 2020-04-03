@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner myobj = new Scanner("System.in");
+	    float cel,frh;
+	    System.out.println("Ente the value");
+	    frh = myobj.nextFloat();
+	    cel = (frh-32)*5/9;
+		System.out.println(cel);
+	}
+}
