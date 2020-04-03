@@ -1,0 +1,24 @@
+abstract class myclass{
+    public int age = 20;
+    public String name = "Vishakha";
+    public int year = 2018;
+    public abstract void study();
+}
+class person extends myclass{
+    public String lastname = "Arya";
+    public void study(){
+        System.out.println("Hello World");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		person myobj = new person();
+		myobj.study();
+		System.out.println("Name " + myobj.name);
+		System.out.println("LastName " + myobj.lastname);
+		System.out.println("Age " + myobj.age);
+		System.out.println("Year " + myobj.year);
+		
+	}
+}
