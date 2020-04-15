@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner myobj = new Scanner(System.in);
+	    System.out.println("Enter the Number");
+	    int num1 = myobj.nextInt();
+	    System.out.println("Enter the Power");
+	    int power = myobj.nextInt();
+	    int result = 1;
+	    for(int i= 1;i<= power;i++){
+	        result = result* num1;
+	    }
+	    System.out.println("Result: " + result);
+	}
+}
