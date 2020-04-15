@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner myobj = new Scanner(System.in);
+	    System.out.println("Enter the first value");
+	    int num1 = myobj.nextInt();
+	    System.out.println("Enter the second value");
+	    int num2 = myobj.nextInt();
+	    int result = num1*num1 + num2* num2;
+	    System.out.println("Result: " + result);
+	}
+}     
