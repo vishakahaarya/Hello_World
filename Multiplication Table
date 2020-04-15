@@ -1,0 +1,11 @@
+public class myclass
+{
+  public Static void main(String[]args){
+  int num = 5;
+  int result = 0;
+  for(int count=1; count<=10;count++);{
+    result = num* count;
+     System.out.println(num + "*" + count + "=" + result);
+    }
+  }
+}
